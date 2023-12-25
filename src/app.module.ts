@@ -22,9 +22,9 @@ import { EmailController } from './email.controller';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'roundhouse.proxy.rlwy.net',
-      port: 23307,
+      port: 33836,
       username: 'postgres',
-      password: '4g*fd2421a-eda*BbBBD322EE*AE*21*',
+      password: 'CebF45A26ACbGC2b-dg1BFC125CdAgcg',
       database: 'railway',
       autoLoadEntities: true,
       synchronize: true,
