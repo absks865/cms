@@ -23,7 +23,7 @@ export class MailService {
   async sendRegistrationFormEmail(data: any): Promise<void> {
     const mailOptions = {
       from: `your@gmail.com`, // sender address
-      to: 'absks865@gmail.com', // receiver address
+      to: 'nehalpallakai@gmail.com', // receiver address
       subject: `New Request for ${data.programs} Program`,
       html: `
         <p>Name: ${data.name}</p>
