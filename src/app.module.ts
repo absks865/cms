@@ -20,12 +20,12 @@ import { EmailController } from './email.controller';
     
 
     TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username: 'root',
-      password: '',
-      database: 'test',
+      type: 'postgres',
+      host: 'roundhouse.proxy.rlwy.net',
+      port: 23307,
+      username: 'postgres',
+      password: '4g*fd2421a-eda*BbBBD322EE*AE*21*',
+      database: 'railway',
       autoLoadEntities: true,
       synchronize: true,
       ...(process.env.NODE_ENV === 'prod'
