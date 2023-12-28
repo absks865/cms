@@ -20,7 +20,7 @@ export class EmailService {
   async sendContactFormEmail(data: any): Promise<void> {
     const mailOptions = {
       from: 'your@gmail.com', // sender address
-      to: 'nehalpallakai@gmail.com', // receiver address
+      to: 'nehalpallaki@gmail.com', // receiver address
       subject: `${data.subject} `,
       html: `
         <p>Name: ${data.name}</p>
